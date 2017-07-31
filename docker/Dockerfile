@@ -1,10 +1,10 @@
-FROM  cyberdojofoundation/ubuntu-build-essential:17.04
+FROM  cyberdojofoundation/ubuntu-build-essential:14.04
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get update
 
 RUN apt-get install --yes curl
-RUN curl --silent --location https://deb.nodesource.com/setup_4.x | bash -
+RUN curl --silent --location https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install --yes nodejs
 RUN npm install --global jshint
 
