@@ -12,7 +12,7 @@ RUN npm install --global n
 RUN n 0.12.7
 RUN n 4.1.1 # keep old version for backward compatibility with old Katas
 RUN n 4.2.1
+RUN n 6.11.1
+RUN n 8.2.1
 
 RUN chmod -R a+w /usr/local
-
-RUN sdsds
