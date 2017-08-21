@@ -14,5 +14,6 @@ RUN n 4.1.1 # keep old version for backward compatibility with old Katas
 RUN n 4.2.1
 RUN n 6.11.1
 RUN n 8.2.1
+RUN n 8.4.0
 
 RUN chmod -R a+w /usr/local
