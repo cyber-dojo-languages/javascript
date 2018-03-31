@@ -17,5 +17,6 @@ RUN n 6.11.1
 RUN n 8.2.1
 RUN n 8.4.0
 RUN n 9.4.0
+RUN n 9.10.1
 
 RUN chmod -R a+w /usr/local
