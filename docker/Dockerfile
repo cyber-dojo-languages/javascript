@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/ubuntu-build-essential:16.04
+FROM  cyberdojofoundation/ubuntu-build-essential:18.04
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get update
