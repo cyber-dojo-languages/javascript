@@ -1,6 +1,7 @@
-# Javascript
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/javascript.svg?branch=master)
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/javascript.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/javascript)
+
+## image_name="cyberdojofoundation/javascript"
 
 [Version=10.1.0](https://github.com/cyber-dojo-languages/javascript/blob/master/check_version.sh)
 
