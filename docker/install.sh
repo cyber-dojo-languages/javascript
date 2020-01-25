@@ -16,5 +16,6 @@ n 8.4.0
 n 9.4.0
 n 9.10.1
 n 10.1.0
+n 13.7.0
 
 chmod -R a+w /usr/local

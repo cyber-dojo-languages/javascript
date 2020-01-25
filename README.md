@@ -3,6 +3,6 @@
 
 ## image_name="cyberdojofoundation/javascript"
 
-[Version=10.1.0](https://github.com/cyber-dojo-languages/javascript/blob/master/check_version.sh)
+[Version=13.7.0](https://github.com/cyber-dojo-languages/javascript/blob/master/check_version.sh)
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
