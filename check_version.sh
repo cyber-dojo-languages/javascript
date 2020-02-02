@@ -1,7 +1,7 @@
 #!/bin/bash -Eeu
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
-readonly EXPECTED=$(cat ${MY_DIR}/README.md | grep Version | cut -d'=' -f2 | cut -d']' -f1)
+readonly EXPECTED=13.7.0
 readonly ACTUAL=$(docker run --rm -it cyberdojofoundation/javascript-node sh -c 'node -v')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
@@ -9,5 +9,5 @@ if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
 else
   echo "VERSION EXPECTED: ${EXPECTED}"
   echo "VERSION   ACTUAL: ${ACTUAL}"
-  exit 1
+  exit 42
 fi
