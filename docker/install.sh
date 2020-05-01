@@ -1,7 +1,7 @@
 #!/bin/bash -Eeu
 
 apt-get install --yes curl
-curl --silent --location https://deb.nodesource.com/setup_13.x | bash -
+curl --silent --location https://deb.nodesource.com/setup_14.x | bash -
 apt-get install --yes nodejs
 npm install --global jshint
 
@@ -17,5 +17,6 @@ n 9.4.0
 n 9.10.1
 n 10.1.0
 n 13.7.0
+n 14.1.0
 
 chmod -R a+w /usr/local
