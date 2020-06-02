@@ -8,6 +8,8 @@ FROM cyberdojofoundation/ubuntu-build-essential:18.04
 RUN (getent group sandbox) || (addgroup --gid 51966 sandbox)
 RUN (grep -q sandbox:x:41966 /etc/passwd) || (adduser --disabled-password --gecos "" --home /home/sandbox --ingroup sandbox --shell /bin/bash --uid 41966 sandbox)
 RUN apt-get update && apt-get install --yes coreutils bash tar file
+ARG COMMIT_SHA
+ENV SHA=${COMMIT_SHA}
 # END of extra commands to fulfil runner's requirements
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 

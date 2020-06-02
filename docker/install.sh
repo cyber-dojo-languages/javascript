@@ -1,5 +1,6 @@
 #!/bin/bash -Eeu
 
+apt-get update
 apt-get install --yes curl
 curl --silent --location https://deb.nodesource.com/setup_14.x | bash -
 apt-get install --yes nodejs
