@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/ubuntu-build-essential-18-04
+FROM cyberdojofoundation/ubuntu-build-essential-18-04:a6578e6
 LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
