@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/ubuntu-build-essential-18-04:a6578e6
+FROM node:alpine
 LABEL maintainer=jon@jaggersoft.com
 
 COPY install.sh .
