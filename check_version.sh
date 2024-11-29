@@ -5,7 +5,7 @@ readonly JSON=`cat ${MY_DIR}/docker/image_name.json`
 [[ ${JSON} =~ ${REGEX} ]]
 readonly IMAGE_NAME="${BASH_REMATCH[1]}"
 
-readonly EXPECTED=v23.1.0
+readonly EXPECTED=23.3.0
 readonly ACTUAL=$(docker run --rm -i ${IMAGE_NAME} sh -c 'node -v')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
