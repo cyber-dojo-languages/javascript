@@ -1,5 +1,6 @@
-[![Github Action (main)](https://github.com/cyber-dojo-languages/javascript/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/javascript/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
-## image_name="ghcr.io/cyber-dojo-languages/javascript-node"
+## display_name="Javascript 25.8.1"
+## image_name=[ghcr.io/cyber-dojo-languages/javascript-node](https://ghcr.io/cyber-dojo-languages/javascript-node)
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
