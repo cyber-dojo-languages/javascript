@@ -7,8 +7,6 @@ on:
   schedule:
     - cron: '0 9 * * MON'
 
-# These environment variables are used in the image builder script used to
-# build Docker images
 env:
   PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}     # Token for GHCR
   PACKAGES_USERNAME: ${{ github.actor }}          # Username for GHCR
