@@ -7,18 +7,10 @@ on:
   schedule:
     - cron: '0 9 * * MON'
 
-env:
-  PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  PACKAGES_USERNAME: ${{ github.actor }}
-  REPO_NAME: ${{ github.event.repository.name }}
-  TYPE: ${{ github.event_name }}
-
 jobs:
 
   build-test-publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: cyber-dojo-languages/pinned-checkout@main
-
-      - name: Build image, test it, push to registry
-        run: ./pipe_build_up_test.sh
+    uses: cyber-dojo-languages/reusable-actions-workflows/.github/workflows/build-image-per-arch.yml@main
+    permissions:
+      packages: write
+      contents: read
